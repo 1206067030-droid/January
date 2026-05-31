@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="woodGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4B896;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#C19A6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B6342;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FAFAF9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded rectangle background (iOS style) -->
+  <rect x="10" y="10" width="160" height="160" rx="36" fill="url(#bgGrad)" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Main frame element -->
+  <rect x="45" y="40" width="90" height="80" rx="6" fill="none" stroke="url(#woodGrad)" stroke-width="6"/>
+  
+  <!-- Inner canvas -->
+  <rect x="55" y="50" width="70" height="60" rx="4" fill="url(#woodGrad)" opacity="0.12"/>
+  
+  <!-- Art elements -->
+  <circle cx="90" cy="72" r="16" fill="url(#woodGrad)" opacity="0.55"/>
+  
+  <rect x="68" y="92" width="44" height="10" rx="2" fill="url(#woodGrad)" opacity="0.65"/>
+  
+  <!-- Brand initial -->
+  <text x="90" y="138" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#8B6342" text-anchor="middle">J</text>
+</svg>

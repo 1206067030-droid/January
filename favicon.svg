@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="woodGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C19A6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B6342;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#FAFAF9"/>
+  
+  <!-- Letter J stylized as art frame -->
+  <rect x="28" y="20" width="44" height="56" rx="3" fill="none" stroke="url(#woodGradient)" stroke-width="4"/>
+  
+  <!-- Inner design element -->
+  <rect x="35" y="27" width="30" height="42" rx="2" fill="url(#woodGradient)" opacity="0.15"/>
+  
+  <!-- Abstract art element inside -->
+  <circle cx="50" cy="45" r="10" fill="url(#woodGradient)" opacity="0.6"/>
+  <rect x="40" y="55" width="20" height="8" rx="1" fill="url(#woodGradient)" opacity="0.7"/>
+  
+  <!-- Text "J" integrated -->
+  <text x="50" y="88" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#8B6342" text-anchor="middle">J</text>
+</svg>
